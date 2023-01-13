@@ -1,3 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .clip-your-needful-style {
+    clip-path: polygon(calc(100% - 25vw) 0, 100% 0, 100% 100%, 0% 100%);
+    /* clip-path: polygon(100% 0, 100% 100%, 0% 100%, 20% 100%, calc(100% - 23vw) 0);
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 6vw));
+    background: blue;
+    width: 50%;
+    height: 50%;
+     opacity: 10%; */
+  }
+
+  .header-background-image-style {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/media/nur-pack/s1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+
+    @media (max-width: 639px) {
+      background-size: 100% 90%;
+    }
+  }
+
+  .molding-background-image-style {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("/media/sayaf-images/ba1.jpg");
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+  }
+
+  .custom-corner-image-1 {
+    /* add bottom border */
+    padding: 0 20px 20px 0;
+    background: linear-gradient(orange 0 0) 100% 100% / 60% 60% no-repeat;
+    /* cut top corner */
+  }
+  .custom-div-after {
+    padding: 0 20px 20px 0;
+    background: linear-gradient(orange 0 0) 100% 100% / 60% 60% no-repeat;
+  }
+}
+
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -102,6 +147,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme:dark ;
   }
 }
