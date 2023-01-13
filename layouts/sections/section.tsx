@@ -5,7 +5,6 @@ import { useState } from 'react';
 import img2 from '../../public/i5.jpg'
 function Sec(){
   const [clickedButton, setClickedButton] = useState('');
-
   
 const buttonHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
