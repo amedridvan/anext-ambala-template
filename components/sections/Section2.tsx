@@ -3,7 +3,7 @@ import img1 from "../../public/machine1.jpg"
 function Section2 (){
  return(
 <>
-<div className="relative    text-red-900 flex flex-col  text-center border-2 border-red-600 border-solid">
+<div className="relative    text-red-900 flex flex-col  text-center border-2 border-red-600 border-solid mt-9">
  <div className="flex flex-row m-[10px] p-[10px] justify-center text-center "> 
      <span>02</span>
      <span>/</span>
@@ -14,7 +14,10 @@ function Section2 (){
     <Image className="w-full h-[800px]"
     src={img1}
     alt="cover photo"
-     />
+     /> 
+     <div>
+       
+     </div>
    </div>
 </div>
 </>
