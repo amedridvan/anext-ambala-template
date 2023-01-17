@@ -1,7 +1,8 @@
 .head1{
-  height: 1000px;
+  height: 850px;
   background-color:white;
   color: black;
+  margin-bottom: 30px ;
 }
 .headlogo{
   width: 80px;
@@ -30,14 +31,14 @@
 }
 .headmenu{
 padding-left: 20px;
-height: 100%;
+height: 1000px;
 color: white;
 width: 200px;
 }
 .headfoto{
   z-index: 0;
   width: 100%;
-  height: 1000px;
+  height: 900px;
   background-size: cover;
   position:absolute;
 }

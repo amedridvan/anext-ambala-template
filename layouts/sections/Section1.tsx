@@ -4,24 +4,18 @@ import img1 from  '../../public/image.jpg'
 import { useState } from 'react';
 import img2 from '../../public/i5.jpg'
 import Document from '@/pages/_document';
-function Sec(){
-const [clickedButton, setClickedButton] = useState('');
+import Section2 from './Section2';
+function Section1  ()  {
+    const [clickedButton, setClickedButton] = useState('');
 const buttonHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
     const button: HTMLButtonElement = event.currentTarget;
     let a=`231`
     setClickedButton(a)
   };
-    return(
-        <>
-  <div className="h-[800px]    ">
-   <Image className="absolute  h-full w-full z-0 "
-   src={img1}
-   alt="cover foto"
-   objectPosition="center"
-   objectFit="cover"
-    /> 
-       <div className="flex flex-row relative z-10 mx-auto  mb-auto text-black justify-center pt-[30px]  " style={{letterSpacing:15}}>
+  return (
+    <>
+       <div className="flex flex-row relative z-10 mx-auto  mb-auto text-black justify-center pt-[30px] " style={{letterSpacing:15}}>
        <span className="text-2xl text-gray-600 mr-[10px] bold font-sans font-black   ">01</span>
        <span className="ml-[10px] bold text-2xl text-pink-200 font-black  ">/</span>
        <h2 className="uppercase text-2xl font-black  font-sans ml-[10px]">products</h2>
@@ -38,9 +32,8 @@ const buttonHandler = (event: React.MouseEvent<HTMLButtonElement>) => {
       <div  id="a2" className="bg-zinc-700 h-[200px] relative mt-[30px] text-center p-[10px]">
       {clickedButton}
       </div>
-      </div>
-      
-        </>
-)
+    </>
+  )
 }
-export default Sec
+
+export default Section1
