@@ -8,7 +8,7 @@ import Section2 from './Section2';
 function Sec(){
     return(
         <>
-        <div className="h-[2200px]">
+        <div className="">
    <Image className="absolute  h-[1400px] w-full z-0 "
    src={img1}
    alt="cover foto"

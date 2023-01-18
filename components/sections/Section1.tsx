@@ -2,7 +2,7 @@ import * as React from "react";
 import { useState } from "react";
 import img2 from "../../public/machine1.jpg";
 import Image from "next/image";
-import Divs from "../divs/div1";
+import Divs from "../ProductItems";
 
 const myPrudtcs = [
   { id: "1", name: "Food",     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" ,ButName:"read more" },
@@ -100,7 +100,6 @@ function Section1() {
       <div
         className={
           clickedButton == `b${item.id}` ||
-          clickedButton == `b${item.id+1}` ||
           clickedButton == "a1"
             ? "flex flex-col   w-1/3  "
             : "hidden"
