@@ -1,5 +1,5 @@
 import Image from "next/image";
-import img2 from "../../public/machine1.jpg";
+import img2 from "../public/machine1.jpg";
 
 export interface ProductItem  {
   id: string;
@@ -18,7 +18,7 @@ function Divs(props:{id:string ,title:string ,desc:string ,butname:string} ) {
         src={img2}
         alt="cover"
       />
-      <div id={props.id} className="z-10 flex flex-col  ">
+      <div key={props.id} className="z-10 flex flex-col  ">
         <span className="text-black font-sans font-bold text-4xl  border-b-2 border-solid border-red-700 mb-[10px] self-center ">
           {props.title.toUpperCase()}
         </span>
