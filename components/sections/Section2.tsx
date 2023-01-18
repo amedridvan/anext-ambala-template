@@ -11,7 +11,7 @@ function Section2 (){
  </div>
  <p className="h-[10px] ">The most important news of your projects</p>
  <div className=" mt-[40px] ">
-    <Image className="w-full h-[800px]"
+    <Image className="w-full"
     src={img1}
     alt="cover photo"
      /> 
