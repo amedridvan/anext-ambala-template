@@ -3,7 +3,7 @@ import img1 from "../../public/machine1.jpg"
 function Section2 (){
  return(
 <>
-<div className="relative h-[100px]  flex flex-col  text-center mt-9">
+<div className="relative h-[100px]  flex flex-col  text-center mt-9 ">
  <div  style={{ letterSpacing: 15 }} className="flex flex-row m-[10px] p-[10px] justify-center text-center ml-[-120px]  "> 
      <span className="text-2xl text-gray-600 mr-[10px] bold font-sans font-black">02</span>
      <span className="ml-[10px] bold text-2xl text-pink-200 font-black  ">/</span>

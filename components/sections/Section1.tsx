@@ -36,7 +36,7 @@ function Section1() {
           products
         </h2>
       </div>
-      <div className=" text-black relative w-full  flex felx-row h-[30px] mb-[70px] mt-[30px]   justify-center  flex-wrap ">
+      <div className=" text-black relative w-full  flex felx-row h-[30px] mb-[100px] mt-[30px]   justify-center  flex-wrap ">
         <button
           name="a1"
           className="ml-[20px] border border-gray-900 border-solid bg-pink-500 pb-[5px] px-[5px] text-white  rounded  cursor-text"
@@ -106,7 +106,7 @@ function Section1() {
             : "hidden"
         }
       >
-      <Divs key={item.id} title={item.name} id={item.id} desc={item.desc } butname={item.ButName}  />
+      <Divs key={item.id} propduct={item}   />
         </div>
       ))} 
       </div>

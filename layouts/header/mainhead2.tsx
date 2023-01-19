@@ -4,7 +4,7 @@ function MainHead2() {
       <div className="relative  flex flex-row p-[20px] ml-[90px]   ">
         <div className="w-[700px] flex flex-col ">
           <span className="uppercase text-white ">
-            <h1 className="underline underline-offset-8 text-4xl mb-[30px] transform rotate-0 duration-1000 hover:rotate-12  hover:text-red-900  ">
+            <h1 className="underline underline-offset-8 text-4xl mb-[30px] transform rotate-0 duration-1000 hover:rotate-6  hover:text-red-900  ">
               what we do
             </h1>
           </span>
