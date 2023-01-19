@@ -19,7 +19,7 @@ export default () => {
     <div>
     <span className="text-2xl block font-sass text-fuchsia-700 uppercase mb-[5px]">anext</span>
     <span className="uppercase text-xl font-sass font-bold mb-[5px]" >next ambalaj</span>
-    <p className="mt-[5px] font-sass w-[300px] mx-auto mt-20px mb-auto"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta fugit odio architecto optio suscipit, quam animi quaerat illo corporis sunt est, nobis vel ipsam nihil a quia doloribus! Ut.</p>
+    <p className="mt-[5px] font-sass w-[300px] mx-auto mt-20px mb-auto "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dicta fugit odio architecto optio suscipit, quam animi quaerat illo corporis sunt est, nobis vel ipsam nihil a quia doloribus! Ut.</p>
     <button className="mt-[20px] rounded w-[60px] h-[45px] border-2 border-white border-solid 	"> more</button>
     </div>
     </SwiperSlide>

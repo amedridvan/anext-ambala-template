@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Header from '../layouts/header/head'
 import  Sec1 from  '../components/sections/MainSection'
+import Sec from '../components/sections/Section3'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       </Head>
     <Header />
     <Sec1 />
+    <Sec />
+    
     </> 
   )
 }

@@ -3,6 +3,7 @@ import { useState } from "react";
 import img2 from "../../public/machine1.jpg";
 import Image from "next/image";
 import Divs from "../ProductItems";
+import { idText } from "typescript";
 
 const myPrudtcs = [
   { id: "1", name: "Food",     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod" ,ButName:"read more" },
@@ -21,11 +22,11 @@ function Section1() {
   };
   return (
     <>
-      <div
+      <div key="2 "
         className="flex flex-row relative z-10 mx-auto  mb-auto text-black justify-center pt-[30px] "
         style={{ letterSpacing: 15 }}
       >
-        <span className="text-2xl text-gray-600 mr-[10px] bold font-sans font-black   ">
+        <span className="text-2xl text-gray-600 mr-[10px] bold font-sans font-black">
           01
         </span>
         <span className="ml-[10px] bold text-2xl text-pink-200 font-black  ">
@@ -92,12 +93,12 @@ function Section1() {
           BIODEGRADABLE
         </button>
       </div>
-      <div
+      <div key="1"
         id="a2"
         className="  h-[600px]  relative  justify-center items-start  mt-[-30px] flex flex-wrap  text-center   "
       > 
       {myPrudtcs.map(item =>( 
-      <div
+      <div key={item.id}
         className={
           clickedButton == `b${item.id}` ||
           clickedButton == "a1"
@@ -105,7 +106,7 @@ function Section1() {
             : "hidden"
         }
       >
-      <Divs title={item.name} id={item.id} desc={item.desc } butname={item.ButName}  />
+      <Divs key={item.id} title={item.name} id={item.id} desc={item.desc } butname={item.ButName}  />
         </div>
       ))} 
       </div>
