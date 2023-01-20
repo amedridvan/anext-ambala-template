@@ -2,8 +2,13 @@ import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import Header from '../layouts/header/head'
 import  Sec from  '../components/sections/MainSection'
-import Sec1 from '../components/sections/Section3'
-import Sec2 from "../components/sections/Sections4"
+import Sec1 from '../components/sections/TrakingApplication'
+import Sec2 from "../components/sections/Achievements"
+import Sec5 from "../components/sections/ClintsSays"
+import OurVision from '../components/sections/OurVision'
+import VSection from '@/components/sections/VideoSection'
+import SwideSilper from '@/components/sections/SwideSilper'
+import Footer from '@/layouts/footer/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -19,6 +24,11 @@ export default function Home() {
     <Sec />
     <Sec1 />
     <Sec2 />
+    <Sec5 />
+    <OurVision />
+     <VSection /> 
+     <SwideSilper />
+     <Footer />
     
     </> 
   )
