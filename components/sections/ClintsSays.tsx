@@ -4,8 +4,8 @@ import img3 from "../../public/developer.png"
 function Section5 (){
     return (
         <>
-        <div className="w-full h-[400px]">
-            <Image className=" w-full h-[400px] absolute z-0"
+        <div className="w-full ">
+            <Image className=" w-full h-[500px] absolute z-0"
             alt ="cover"
             src={img2} />
       <div className="relative ">

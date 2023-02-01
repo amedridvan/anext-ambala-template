@@ -6,8 +6,8 @@ import img3 from "../../public/qr-1.jpg"
 import img4 from "../../public/mob.png"
 function Section3(){
     return ( 
-       <div className=" mt-[-30px]  mb-[-44px] h-[700px]">
-           <Image className="h-full w-full absolute z-0 "
+       <div className="">
+           <Image className="  w-full absolute z-0 "
            alt="cover"
            src={img2} />
            <div className="relative z-10 text-center mb-[30px] pt-8   ">

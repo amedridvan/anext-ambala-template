@@ -1,17 +1,30 @@
 function Footer(){
     return ( 
         <>
-        <div className="w-full h-[500px] bg-gray-800 flex flex-row p-[10px] " > 
+        <div className="w-full  bg-gray-800 flex flex-row p-[10px] flex-nowrap justify-center items-center" > 
         <div className="flex flex-col w-[20%] p-3 ">
             <h2>contact</h2>
             <div>
                  <div> <span></span> adress</div>
                  <span>908 New Hampshire Avenue #100, Washington, DC 20037, United States</span>
             </div>
-             <div><span className="w-[15px] h-[15px] absolute bg-white rounded-full "></span>Phone: +1 916-875-2235</div>
-             <div><span></span>Fax: +1 916-875-2235</div>
-             <div><span></span>Email: info@domain.tld</div>
-             <div><span></span>Website: www.codex-themes.com</div>
+             <div className="flex  flex-row ">
+             <span className="w-[15px] h-[15px] absolute bg-white rounded-full mr-3 "></span>
+             <span>Phone: +1 916-875-2235</span>
+              </div>
+             <div>
+                <span></span>
+                <span>Fax: +1 916-875-2235</span>
+            </div>
+
+             <div>
+                <span></span>
+                <span>Email: info@domain.tld</span>
+            </div>
+
+             <div> 
+                <span></span>
+                <span></span>Website: www.codex-themes.com</div>
         </div>
 
         <div className="flex flex-col w-[30%]">

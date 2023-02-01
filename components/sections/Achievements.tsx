@@ -6,7 +6,7 @@ let MyAchievements =
 ]
 function  Section4(){
     return( 
-    <div className="h-[400px] w-full bg-white   ">
+    <div className="h-[500px] w-full bg-white mt-5 scroll  overflow-hidden">
        
        <div style={{ letterSpacing: 15 }} className="flex flex-row w-full p-[50px] justify-center items-center text-black ml-10 ">
        <span  className="text-2xl text-zinc-700  mr-[10px] bold font-sans font-black ">04</span>
